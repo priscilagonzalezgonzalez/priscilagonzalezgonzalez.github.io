@@ -403,10 +403,6 @@ ol {
 	cursor: pointer;
 }
 
-.header__logo {
-	padding: 30px 0;
-}
-
 .header__logo a {
 	display: inline-block;
 }
@@ -908,7 +904,7 @@ ol {
 -----------------------*/
 
 .product {
-	padding-top: 0;
+	padding-top: 90px;
 	padding-bottom: 60px;
 }
 
@@ -1115,12 +1111,44 @@ ol {
 	cursor: pointer;
 }
 
-.product__item__text .product__color__select label.black {
-	background: #404a47;
+.product__item__text .product__color__select label.beige {
+	background: #FFFBFA;
 }
 
-.product__item__text .product__color__select label.grey {
-	background: #d5a667;
+.product__item__text .product__color__select label.blue {
+	background: #6AA5D9;
+}
+
+.product__item__text .product__color__select label.pink {
+	background: #F99F9E;
+}
+
+.product__item__text .product__color__select label.black {
+	background: #09090D;
+}
+
+.product__item__text .product__color__select label.mustard {
+	background: #FFC331;
+}
+
+.product__item__text .product__color__select label.purple {
+	background: #BFA7F2;
+}
+
+.product__item__text .product__color__select label.green {
+	background: #6A7F43;
+}
+
+.product__item__text .product__color__select label.brown {
+	background: #5C2E0E;
+}
+
+.product__item__text .product__color__select label.red {
+	background: #BF0413;
+}
+
+.product__item__text .product__color__select label.yellow {
+	background: #F5DA23;
 }
 
 .product__item__text .product__color__select label.active:after {
@@ -1951,6 +1979,11 @@ ol {
 
 .footer__about .footer__logo a {
 	display: inline-block;
+}
+
+.footer__about .footer__logo img {
+	width: 50%;
+	border-radius: 100%;
 }
 
 .footer__about p {
